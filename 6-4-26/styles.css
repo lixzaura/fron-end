@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    padding: 18px 24px;
+    background-color: blue; /* aqui eu botei essa cor só pra vizualizar */
+}
+
+aside {
+    padding: 16px;
+    width: 256px;
+}
+
+.fab {
+    position: fixed; /* posição fixa,mesmo se tiver como scrolar para baixo, o botão fica NO MESMO LUGAR */
+    bottom: 32px;
+    right: 32px;
+}
